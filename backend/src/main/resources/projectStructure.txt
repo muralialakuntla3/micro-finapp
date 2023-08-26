@@ -1,0 +1,34 @@
+src
+├── main
+│   ├── java
+│   │   ├── com
+│   │   │   ├── yourcompany
+│   │   │   │   ├── yourproject
+│   │   │   │   │   ├── controller       # REST controller classes
+│   │   │   │   │   ├── model            # Entity classes
+│   │   │   │   │   ├── repository       # Spring Data JPA repositories
+│   │   │   │   │   ├── service          # Business logic
+│   │   │   │   │   ├── exception        # Custom exception classes
+│   │   │   │   │   ├── dto              # Data Transfer Objects
+│   │   │   │   │   ├── security         # Security-related classes (if applicable)
+│   │   │   │   │   ├── config           # Configuration classes (Swagger, etc.)
+│   │   │   │   │   └── YourProjectApplication.java  # Main Spring Boot application class
+│   │   ├── resources
+│   │   │   ├── application.properties    # Application configuration
+│   │   │   ├── static                    # Static resources (HTML, CSS, JS)
+│   │   │   └── templates                 # Thymeleaf templates (if using)
+│   └── resources
+│       ├── db                             # Database-related scripts
+│       │   ├── migration                  # Database migration scripts (Flyway, Liquibase)
+│       │   └── data                       # Initial data scripts
+│       └── application.properties         # Default application properties
+└── test                                   # Unit and integration tests
+    ├── java
+    │   └── com
+    │       └── yourcompany
+    │           └── yourproject
+    │               ├── controller          # Controller test classes
+    │               ├── service             # Service test classes
+    │               └── YourProjectApplicationTests.java  # Main test class
+    └── resources
+        └── application-test.properties     # Test-specific application properties
